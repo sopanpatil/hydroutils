@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='hydroutils',
       version='1.0',
-      description='Utility classes for building and running hydrological models',
+      description='Utility classes to build and run hydrological models',
       author='Sopan Patil and Marc Stieglitz',
       license='MIT',
       packages=['hydroutils'],
