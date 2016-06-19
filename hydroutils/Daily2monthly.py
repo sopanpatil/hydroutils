@@ -13,6 +13,10 @@ class Daily2monthly(object):
 
     """ The 'Daily2monthly' class contains methods to convert daily data into monthly data.
 
+    (1) summation: Sums up all the daily values in the month.
+
+    (2) average: calculates arithmetic average of all the daily values in the month.
+
     """
 
     @staticmethod
