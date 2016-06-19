@@ -25,7 +25,8 @@ class Calibration(object):
         objective function with the Particle Swarm Optimisation algorithm.
 
         Args:
-            (1) model: Instance of the user provided model.
+            (1) model: Instance of the user provided model. The class file of user's model MUST
+            contain a method called 'simulate' which is used to run the model.
 
             (2) params: List of the instances of user provided model parameter sets.
 
@@ -108,7 +109,8 @@ class Calibration(object):
         objective function with the MonteCarlo Optimisation algorithm.
 
         Args:
-            (1) model: Instance of the user provided model.
+            (1) model: Instance of the user provided model. The class file of user's model MUST
+            contain a method called 'simulate' which is used to run the model.
 
             (2) params: List of the instances of user provided model parameter sets.
 

@@ -20,7 +20,7 @@ class OdeSolver(object):
     """
 
     @staticmethod
-    def solve_dopri5(userfunction, initstate, userpara, tlength):
+    def solve_rk45(userfunction, initstate, userpara, tlength):
 
         """ This method performs the integration of the user provided function
         over the specified simulation time period.
