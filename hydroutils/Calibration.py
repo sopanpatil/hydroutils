@@ -81,7 +81,7 @@ class Calibration(object):
                 params[i].updateparameters(paramsbst[i], paramsmax, w)
 
             objmax[j] = paramsmax.objval
-            print 'Swarm iteration:', j+1, ', Best objfun value:', objmax[j]
+            print('Swarm iteration:', j+1, ', Best objfun value:', objmax[j])
 
             if j > 0:
                 # Count no. of swarm iterations with no objective function value improvement
@@ -144,7 +144,7 @@ class Calibration(object):
                 # copy parameter set
                 paramsmax = copy.deepcopy(params[i])
 
-            print 'Iteration:', i+1, ', Best objfun value:', paramsmax.objval
+            print('Iteration:', i+1, ', Best objfun value:', paramsmax.objval)
 
         return paramsmax
 
