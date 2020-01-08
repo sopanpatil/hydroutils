@@ -69,7 +69,7 @@ class OdeSolver(object):
         n = len(t)
         x = numpy.array([x0] * n)
 
-        for i in xrange(n - 1):
+        for i in range(n - 1):
             h = t[i+1] - t[i]
             k1 = h * f(t[i], x[i], para)
             k2 = h * f(t[i] + 0.5 * h, x[i] + 0.5 * k1, para)
